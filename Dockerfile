@@ -1,4 +1,4 @@
-FROM kayceesrk/cs3100_iitm:8799a5d8c609
+FROM kayceesrk/cs3100_iitm:latest
 
 RUN pip install --no-cache-dir notebook
 RUN pip install --no-cache-dir jupyterhub
