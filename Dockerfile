@@ -1,7 +1,6 @@
 FROM kayceesrk/cs3100_iitm:latest
 
 RUN pip3 install --no-cache-dir notebook
-RUN pip3 install --no-cache-dir jupyterhub
 RUN pip3 install pyswip-notebook
 
 ARG NB_USER=jovyan
