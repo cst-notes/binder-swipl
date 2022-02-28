@@ -11,4 +11,4 @@ ENV HOME /home/${NB_USER}
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
-RUN chown -R ${NB_UID} ${HOME}
+RUN sudo chown -R ${NB_UID} ${HOME}
