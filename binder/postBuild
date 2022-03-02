@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir /srv/conda/envs/notebook/share/jupyter/kernels/jswipl
+cd /srv/conda/envs/notebook/share/jupyter/kernels/jswipl
+wget https://raw.githubusercontent.com/eohomegrownapps/jupyter-swi-prolog/master/kernel.json

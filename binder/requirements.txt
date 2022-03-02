@@ -1,0 +1,5 @@
+jupyter-server-proxy
+jupytext
+pyswip
+pyswip-notebook
+git+https://github.com/eohomegrownapps/jupyter-swi-prolog.git
